@@ -78,9 +78,9 @@ struct ProductLeqConstraint : public AbstractConstraint {
   }
 
   void setup_triggers() {
-    moveTriggerInt(var1, 1, UpperBound);
-    moveTriggerInt(var2, 2, UpperBound);
-    moveTriggerInt(var3, 3, LowerBound);
+    moveTriggerInt(var1, 0, UpperBound);
+    moveTriggerInt(var2, 1, UpperBound);
+    moveTriggerInt(var3, 2, UpperBound);
   }
 
   DomainInt mult_max(DomainInt min1, DomainInt max1, DomainInt min2, DomainInt max2) {
@@ -99,20 +99,21 @@ struct ProductLeqConstraint : public AbstractConstraint {
     DomainInt var2_max = var2.getMax();
     DomainInt var3_min = var3.getMin();
     DomainInt var3_max = var3.getMax();
-
+    //printf("Dynint");
+    //printf("%d %d %d %d %d %d",var1_max,var1_min,var2_max,var2_min,var3_max,var3_min);
     if((var1_min >= 0) && (var2_min >= 0)) {
       // We don't have to deal with negative numbers. yay!
 
-      var3_max = max(var3_max, var1_max * var2_max);
+      var3_min = max(var3_min, var1_max * var2_max);
 
-      var1_max = min(var1_max, round_down_div(var3_max, var2_max));
+      var1_max = min(var1_max, round_down_div(var3_max, var2_min));
 
-      var2_max = min(var2_max, round_down_div(var3_max, var1_max));
+      var2_max = min(var2_max, round_down_div(var3_max, var1_min));
 
       var1.setMax(var1_max);
       var2.setMax(var2_max);
       var3.setMax(var3_max);
-    } else {
+     }else {
       var3.setMax(mult_max(var1_min, var1_max, var2_min, var2_max));
       if(var1.isAssigned()) {
         DomainInt val1 = var1.getAssignedValue();
@@ -153,28 +154,27 @@ struct ProductLeqConstraint : public AbstractConstraint {
   }
 
   virtual bool get_satisfying_assignment(box<pair<SysInt, DomainInt>>& assignment) {
-    DomainInt v1 = var1.getMax();
+ /*   DomainInt v1 = var1.getMax();
     DomainInt v2 = var2.getMax();
     DomainInt v3 = var3.getMin();
-    if(v3 >= v2 * v1) {
+    if(v3 == v2 * v1) {
       assignment.push_back(make_pair(0, v1));
       assignment.push_back(make_pair(1, v2));
       assignment.push_back(make_pair(2, v3));
       return true;
     }
     return false;
-  }
-/*    for(DomainInt v1 = var1.getMin(); v1 <= var1.getMax(); ++v1) {
+  }*/
+    for(DomainInt v1 = var1.getMax(); v1 >= var1.getMin(); --v1) {
       if(var1.inDomain(v1)) {
-        for(DomainInt v2 = var2.getMin(); v2 <= var2.getMax(); ++v2) {
+        for(DomainInt v2 = var2.getMax(); v2 >= var2.getMax(); --v2) {
           if(var2.inDomain(v2)) {
             for(DomainInt v3 = var3.getMin(); v3 <= var3.getMax(); ++v3) {
-              if(var3.inDomain(v3) && v3>v2*v3) {
-        
-            assignment.push_back(make_pair(0, v1));
-            assignment.push_back(make_pair(1, v2));
-            assignment.push_back(make_pair(2, v3));
-            return true;
+              if(var3.inDomain(v3) && v3>=(v2*v1)) {
+                assignment.push_back(make_pair(0, v1));
+                assignment.push_back(make_pair(1, v2));
+                assignment.push_back(make_pair(2, v3));
+                return true;
               }
             }
           }
@@ -183,7 +183,7 @@ struct ProductLeqConstraint : public AbstractConstraint {
     }
     return false;
   }
-*/
+
   // Function to make it reifiable in the lousiest way.
   virtual AbstractConstraint* reverse_constraint() {
     return forward_check_negation(this);

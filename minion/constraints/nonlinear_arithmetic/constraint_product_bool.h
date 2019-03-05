@@ -137,6 +137,7 @@ struct BoolProdConstraint : public AbstractConstraint {
   }
 
   virtual void propagateDynInt(SysInt pos, DomainDelta) {
+    printf("tst");
     if(pos < dvar3) {
       DomainInt domval = pos + var2.getInitialMin();
       D_ASSERT(!var2.inDomain(domval));
