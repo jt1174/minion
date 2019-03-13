@@ -1,0 +1,11 @@
+#"CommandLineArguments" "Filename" "InitialPropagate" "MinionVersion" "Nodes" "ParsingTime" "Preprocess" "PreprocessTime" "RandomSeed" "Satisfiable" "SearchOrderTime" "SetupTime" "SolutionsFound" "SolveTime" "TimeOut" "TotalTime" 
+./testcases/pleq.minion,-noprintsols,-findallsols,-tableout,./testcases/pleq.xls ./testcases/pleq.minion 0 -1 165260 0 none 0 1552489680 1 0 0 55092 0.05275 0 0.052748 
+./testcases/pleq.minion,-noprintsols,-findallsols,-tableout,./testcases/pleq.xls ./testcases/pleq.minion 2.2e-05 -1 165260 0.000205 none 1.2e-05 1552489707 1 1.8e-05 4.2e-05 55092 0.064146 0 0.064443 
+./testcases/pleq.minion,-noprintsols,-findallsols,-tableout,./testcases/pleq.xls ./testcases/pleq.minion 1.9e-05 -1 165260 0.000184 none 8e-06 1552489696 1 1.4e-05 4.9e-05 55092 0.065067 0 0.065339 
+./testcases/pleq.minion,-noprintsols,-findallsols,-tableout,./testcases/pleq.xls ./testcases/pleq.minion 1.4e-05 -1 165260 0.00021 none 7e-06 1552489690 1 1.1e-05 4e-05 55092 0.064965 0 0.065245 
+./testcases/pleq.minion,-noprintsols,-findallsols,-tableout,./testcases/pleq.xls ./testcases/pleq.minion 0 -1 165260 0 none 0 1552489699 1 0 0 55092 0.064107 0 0.064105 
+./testcases/pleq.minion,-noprintsols,-findallsols,-tableout,./testcases/pleq.xls ./testcases/pleq.minion 0 -1 165260 0 none 0 1552489706 1 0 0 55092 0.064929 0 0.064927 
+./testcases/pleq.minion,-noprintsols,-findallsols,-tableout,./testcases/pleq.xls ./testcases/pleq.minion 1.6e-05 -1 165260 0.000193 none 9e-06 1552489705 1 1.6e-05 4.9e-05 55092 0.065222 0 0.065503 
+./testcases/pleq.minion,-noprintsols,-findallsols,-tableout,./testcases/pleq.xls ./testcases/pleq.minion 2.4e-05 -1 165260 0.000201 none 1.2e-05 1552489718 1 1.9e-05 5.3e-05 55092 0.065804 0 0.066111 
+./testcases/pleq.minion,-noprintsols,-findallsols,-tableout,./testcases/pleq.xls ./testcases/pleq.minion 2.3e-05 -1 165260 0.000215 none 1.3e-05 1552489704 1 1.9e-05 5.2e-05 55092 0.0664 0 0.066719 
+./testcases/pleq.minion,-noprintsols,-findallsols,-tableout,./testcases/pleq.xls ./testcases/pleq.minion 1.1e-05 -1 165260 0.00011 none 6e-06 1552489719 1 9e-06 2.6e-05 55092 0.063256 0 0.063416 
