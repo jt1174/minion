@@ -111,6 +111,7 @@ struct BoolProdConstraint : public AbstractConstraint {
   }
 
   virtual void full_propagate() {
+        printf("\n\n\n#######tst\n\n\n");
     dvar3 = checked_cast<SysInt>(var2.getInitialMax() - var2.getInitialMin() + 1);
     dvarbool = dvar3 + checked_cast<SysInt>(var3.getInitialMax() - var3.getInitialMin() + 1);
     dvarequalval = dvarbool + 2;
@@ -137,7 +138,7 @@ struct BoolProdConstraint : public AbstractConstraint {
   }
 
   virtual void propagateDynInt(SysInt pos, DomainDelta) {
-    printf("tst");
+    printf("\n\n\n#######tst\n\n\n");
     if(pos < dvar3) {
       DomainInt domval = pos + var2.getInitialMin();
       D_ASSERT(!var2.inDomain(domval));

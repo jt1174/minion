@@ -1,0 +1,101 @@
+MINION 3
+# CSETopLevel_number = 0
+# CSETopLevel_eliminated_expressions = 0
+# CSETopLevel_total_size = 0
+# CSE_active_number = 0
+# CSE_active_eliminated_expressions = 0
+# CSE_active_total_size = 0
+**VARIABLES**
+BOUND design_FunctionND_00001_00001 #
+{0..9}
+BOUND design_FunctionND_00001_00002 #
+{0..9}
+BOUND design_FunctionND_00001_00003 #
+{0..9}
+BOUND design_FunctionND_00001_00004 #
+{0..9}
+BOUND design_FunctionND_00001_00005 #
+{0..9}
+BOUND design_FunctionND_00001_00006 #
+{0..9}
+BOUND design_FunctionND_00001_00007 #
+{0..9}
+BOUND design_FunctionND_00002_00001 #
+{0..9}
+BOUND design_FunctionND_00002_00002 #
+{0..9}
+BOUND design_FunctionND_00002_00003 #
+{0..9}
+BOUND design_FunctionND_00002_00004 #
+{0..9}
+BOUND design_FunctionND_00002_00005 #
+{0..9}
+BOUND design_FunctionND_00002_00006 #
+{0..9}
+BOUND design_FunctionND_00002_00007 #
+{0..9}
+BOUND printings_Function1D_00001 #
+{0..1100}
+BOUND printings_Function1D_00002 #
+{0..1100}
+BOUND aux1 #(printings_Function1D_00001 + printings_Function1D_00002)
+{123..2200}
+BOUND aux2 #(design_FunctionND_00001_00001 * printings_Function1D_00001)
+{0..9900}
+BOUND aux3 #(design_FunctionND_00002_00001 * printings_Function1D_00002)
+{0..9900}
+BOUND aux4 #(design_FunctionND_00001_00002 * printings_Function1D_00001)
+{0..9900}
+BOUND aux5 #(design_FunctionND_00002_00002 * printings_Function1D_00002)
+{0..9900}
+BOUND aux6 #(design_FunctionND_00001_00003 * printings_Function1D_00001)
+{0..9900}
+BOUND aux7 #(design_FunctionND_00002_00003 * printings_Function1D_00002)
+{0..9900}
+BOUND aux8 #(design_FunctionND_00001_00004 * printings_Function1D_00001)
+{0..9900}
+BOUND aux9 #(design_FunctionND_00002_00004 * printings_Function1D_00002)
+{0..9900}
+BOUND aux10 #(design_FunctionND_00001_00005 * printings_Function1D_00001)
+{0..9900}
+BOUND aux11 #(design_FunctionND_00002_00005 * printings_Function1D_00002)
+{0..9900}
+BOUND aux12 #(design_FunctionND_00001_00006 * printings_Function1D_00001)
+{0..9900}
+BOUND aux13 #(design_FunctionND_00002_00006 * printings_Function1D_00002)
+{0..9900}
+BOUND aux14 #(design_FunctionND_00001_00007 * printings_Function1D_00001)
+{0..9900}
+BOUND aux15 #(design_FunctionND_00002_00007 * printings_Function1D_00002)
+{0..9900}
+**VARIABLES**
+ALIAS demand_Function1D[7]=[250, 255, 260, 500, 500, 800, 1100]
+**SEARCH**
+PRINT[[design_FunctionND_00001_00001],[design_FunctionND_00001_00002],[design_FunctionND_00001_00003],[design_FunctionND_00001_00004],[design_FunctionND_00001_00005],[design_FunctionND_00001_00006],[design_FunctionND_00001_00007],[design_FunctionND_00002_00001],[design_FunctionND_00002_00002],[design_FunctionND_00002_00003],[design_FunctionND_00002_00004],[design_FunctionND_00002_00005],[design_FunctionND_00002_00006],[design_FunctionND_00002_00007],[printings_Function1D_00001],[printings_Function1D_00002][aux1]]
+MINIMISING aux1
+VARORDER STATIC [design_FunctionND_00001_00001, design_FunctionND_00001_00002, design_FunctionND_00001_00003, design_FunctionND_00001_00004, design_FunctionND_00001_00005, design_FunctionND_00001_00006, design_FunctionND_00001_00007, design_FunctionND_00002_00001, design_FunctionND_00002_00002, design_FunctionND_00002_00003, design_FunctionND_00002_00004, design_FunctionND_00002_00005, design_FunctionND_00002_00006, design_FunctionND_00002_00007, printings_Function1D_00001, printings_Function1D_00002]
+**CONSTRAINTS**
+productgeq(design_FunctionND_00001_00001, printings_Function1D_00001, aux2)
+productgeq(design_FunctionND_00002_00001, printings_Function1D_00002, aux3)
+productgeq(design_FunctionND_00001_00002, printings_Function1D_00001, aux4)
+productgeq(design_FunctionND_00002_00002, printings_Function1D_00002, aux5)
+productgeq(design_FunctionND_00001_00003, printings_Function1D_00001, aux6)
+productgeq(design_FunctionND_00002_00003, printings_Function1D_00002, aux7)
+productgeq(design_FunctionND_00001_00004, printings_Function1D_00001, aux8)
+productgeq(design_FunctionND_00002_00004, printings_Function1D_00002, aux9)
+productgeq(design_FunctionND_00001_00005, printings_Function1D_00001, aux10)
+productgeq(design_FunctionND_00002_00005, printings_Function1D_00002, aux11)
+productgeq(design_FunctionND_00001_00006, printings_Function1D_00001, aux12)
+productgeq(design_FunctionND_00002_00006, printings_Function1D_00002, aux13)
+productgeq(design_FunctionND_00001_00007, printings_Function1D_00001, aux14)
+productgeq(design_FunctionND_00002_00007, printings_Function1D_00002, aux15)
+sumgeq([aux2,aux3],250)
+sumgeq([aux4,aux5],255)
+sumgeq([aux6,aux7],260)
+sumgeq([aux8,aux9],500)
+sumgeq([aux10,aux11],500)
+sumgeq([aux12,aux13],800)
+sumgeq([aux14,aux15],1100)
+sumleq([printings_Function1D_00001,printings_Function1D_00002],aux1)
+sumgeq([printings_Function1D_00001,printings_Function1D_00002],aux1)
+**EOF**

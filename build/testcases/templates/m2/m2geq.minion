@@ -1,0 +1,574 @@
+MINION 3
+# CSETopLevel_number = 0
+# CSETopLevel_eliminated_expressions = 0
+# CSETopLevel_total_size = 0
+# CSE_active_number = 0
+# CSE_active_eliminated_expressions = 0
+# CSE_active_total_size = 0
+**VARIABLES**
+BOUND design_FunctionND_00001_00001 #
+{0..40}
+BOUND design_FunctionND_00001_00002 #
+{0..40}
+BOUND design_FunctionND_00001_00003 #
+{0..40}
+BOUND design_FunctionND_00001_00004 #
+{0..40}
+BOUND design_FunctionND_00001_00005 #
+{0..40}
+BOUND design_FunctionND_00001_00006 #
+{0..40}
+BOUND design_FunctionND_00001_00007 #
+{0..40}
+BOUND design_FunctionND_00001_00008 #
+{0..40}
+BOUND design_FunctionND_00001_00009 #
+{0..40}
+BOUND design_FunctionND_00001_00010 #
+{0..40}
+BOUND design_FunctionND_00001_00011 #
+{0..40}
+BOUND design_FunctionND_00001_00012 #
+{0..40}
+BOUND design_FunctionND_00001_00013 #
+{0..40}
+BOUND design_FunctionND_00001_00014 #
+{0..40}
+BOUND design_FunctionND_00001_00015 #
+{0..40}
+BOUND design_FunctionND_00001_00016 #
+{0..40}
+BOUND design_FunctionND_00001_00017 #
+{0..40}
+BOUND design_FunctionND_00001_00018 #
+{0..40}
+BOUND design_FunctionND_00001_00019 #
+{0..40}
+BOUND design_FunctionND_00001_00020 #
+{0..40}
+BOUND design_FunctionND_00001_00021 #
+{0..40}
+BOUND design_FunctionND_00001_00022 #
+{0..40}
+BOUND design_FunctionND_00001_00023 #
+{0..40}
+BOUND design_FunctionND_00001_00024 #
+{0..40}
+BOUND design_FunctionND_00001_00025 #
+{0..40}
+BOUND design_FunctionND_00001_00026 #
+{0..40}
+BOUND design_FunctionND_00001_00027 #
+{0..40}
+BOUND design_FunctionND_00001_00028 #
+{0..40}
+BOUND design_FunctionND_00001_00029 #
+{0..40}
+BOUND design_FunctionND_00001_00030 #
+{0..40}
+BOUND design_FunctionND_00001_00031 #
+{0..40}
+BOUND design_FunctionND_00001_00032 #
+{0..40}
+BOUND design_FunctionND_00001_00033 #
+{0..40}
+BOUND design_FunctionND_00001_00034 #
+{0..40}
+BOUND design_FunctionND_00001_00035 #
+{0..40}
+BOUND design_FunctionND_00001_00036 #
+{0..40}
+BOUND design_FunctionND_00001_00037 #
+{0..40}
+BOUND design_FunctionND_00001_00038 #
+{0..40}
+BOUND design_FunctionND_00001_00039 #
+{0..40}
+BOUND design_FunctionND_00001_00040 #
+{0..40}
+BOUND design_FunctionND_00001_00041 #
+{0..40}
+BOUND design_FunctionND_00001_00042 #
+{0..40}
+BOUND design_FunctionND_00001_00043 #
+{0..40}
+BOUND design_FunctionND_00001_00044 #
+{0..40}
+BOUND design_FunctionND_00001_00045 #
+{0..40}
+BOUND design_FunctionND_00001_00046 #
+{0..40}
+BOUND design_FunctionND_00001_00047 #
+{0..40}
+BOUND design_FunctionND_00001_00048 #
+{0..40}
+BOUND design_FunctionND_00001_00049 #
+{0..40}
+BOUND design_FunctionND_00001_00050 #
+{0..40}
+BOUND design_FunctionND_00002_00001 #
+{0..40}
+BOUND design_FunctionND_00002_00002 #
+{0..40}
+BOUND design_FunctionND_00002_00003 #
+{0..40}
+BOUND design_FunctionND_00002_00004 #
+{0..40}
+BOUND design_FunctionND_00002_00005 #
+{0..40}
+BOUND design_FunctionND_00002_00006 #
+{0..40}
+BOUND design_FunctionND_00002_00007 #
+{0..40}
+BOUND design_FunctionND_00002_00008 #
+{0..40}
+BOUND design_FunctionND_00002_00009 #
+{0..40}
+BOUND design_FunctionND_00002_00010 #
+{0..40}
+BOUND design_FunctionND_00002_00011 #
+{0..40}
+BOUND design_FunctionND_00002_00012 #
+{0..40}
+BOUND design_FunctionND_00002_00013 #
+{0..40}
+BOUND design_FunctionND_00002_00014 #
+{0..40}
+BOUND design_FunctionND_00002_00015 #
+{0..40}
+BOUND design_FunctionND_00002_00016 #
+{0..40}
+BOUND design_FunctionND_00002_00017 #
+{0..40}
+BOUND design_FunctionND_00002_00018 #
+{0..40}
+BOUND design_FunctionND_00002_00019 #
+{0..40}
+BOUND design_FunctionND_00002_00020 #
+{0..40}
+BOUND design_FunctionND_00002_00021 #
+{0..40}
+BOUND design_FunctionND_00002_00022 #
+{0..40}
+BOUND design_FunctionND_00002_00023 #
+{0..40}
+BOUND design_FunctionND_00002_00024 #
+{0..40}
+BOUND design_FunctionND_00002_00025 #
+{0..40}
+BOUND design_FunctionND_00002_00026 #
+{0..40}
+BOUND design_FunctionND_00002_00027 #
+{0..40}
+BOUND design_FunctionND_00002_00028 #
+{0..40}
+BOUND design_FunctionND_00002_00029 #
+{0..40}
+BOUND design_FunctionND_00002_00030 #
+{0..40}
+BOUND design_FunctionND_00002_00031 #
+{0..40}
+BOUND design_FunctionND_00002_00032 #
+{0..40}
+BOUND design_FunctionND_00002_00033 #
+{0..40}
+BOUND design_FunctionND_00002_00034 #
+{0..40}
+BOUND design_FunctionND_00002_00035 #
+{0..40}
+BOUND design_FunctionND_00002_00036 #
+{0..40}
+BOUND design_FunctionND_00002_00037 #
+{0..40}
+BOUND design_FunctionND_00002_00038 #
+{0..40}
+BOUND design_FunctionND_00002_00039 #
+{0..40}
+BOUND design_FunctionND_00002_00040 #
+{0..40}
+BOUND design_FunctionND_00002_00041 #
+{0..40}
+BOUND design_FunctionND_00002_00042 #
+{0..40}
+BOUND design_FunctionND_00002_00043 #
+{0..40}
+BOUND design_FunctionND_00002_00044 #
+{0..40}
+BOUND design_FunctionND_00002_00045 #
+{0..40}
+BOUND design_FunctionND_00002_00046 #
+{0..40}
+BOUND design_FunctionND_00002_00047 #
+{0..40}
+BOUND design_FunctionND_00002_00048 #
+{0..40}
+BOUND design_FunctionND_00002_00049 #
+{0..40}
+BOUND design_FunctionND_00002_00050 #
+{0..40}
+BOUND printings_Function1D_00001 #
+{0..405}
+BOUND printings_Function1D_00002 #
+{0..405}
+BOUND aux1 #(printings_Function1D_00001 + printings_Function1D_00002)
+{11..810}
+BOUND aux2 #(design_FunctionND_00001_00001 * printings_Function1D_00001)
+{0..16200}
+BOUND aux3 #(design_FunctionND_00002_00001 * printings_Function1D_00002)
+{0..16200}
+BOUND aux4 #(design_FunctionND_00001_00002 * printings_Function1D_00001)
+{0..16200}
+BOUND aux5 #(design_FunctionND_00002_00002 * printings_Function1D_00002)
+{0..16200}
+BOUND aux6 #(design_FunctionND_00001_00003 * printings_Function1D_00001)
+{0..16200}
+BOUND aux7 #(design_FunctionND_00002_00003 * printings_Function1D_00002)
+{0..16200}
+BOUND aux8 #(design_FunctionND_00001_00004 * printings_Function1D_00001)
+{0..16200}
+BOUND aux9 #(design_FunctionND_00002_00004 * printings_Function1D_00002)
+{0..16200}
+BOUND aux10 #(design_FunctionND_00001_00005 * printings_Function1D_00001)
+{0..16200}
+BOUND aux11 #(design_FunctionND_00002_00005 * printings_Function1D_00002)
+{0..16200}
+BOUND aux12 #(design_FunctionND_00001_00006 * printings_Function1D_00001)
+{0..16200}
+BOUND aux13 #(design_FunctionND_00002_00006 * printings_Function1D_00002)
+{0..16200}
+BOUND aux14 #(design_FunctionND_00001_00007 * printings_Function1D_00001)
+{0..16200}
+BOUND aux15 #(design_FunctionND_00002_00007 * printings_Function1D_00002)
+{0..16200}
+BOUND aux16 #(design_FunctionND_00001_00008 * printings_Function1D_00001)
+{0..16200}
+BOUND aux17 #(design_FunctionND_00002_00008 * printings_Function1D_00002)
+{0..16200}
+BOUND aux18 #(design_FunctionND_00001_00009 * printings_Function1D_00001)
+{0..16200}
+BOUND aux19 #(design_FunctionND_00002_00009 * printings_Function1D_00002)
+{0..16200}
+BOUND aux20 #(design_FunctionND_00001_00010 * printings_Function1D_00001)
+{0..16200}
+BOUND aux21 #(design_FunctionND_00002_00010 * printings_Function1D_00002)
+{0..16200}
+BOUND aux22 #(design_FunctionND_00001_00011 * printings_Function1D_00001)
+{0..16200}
+BOUND aux23 #(design_FunctionND_00002_00011 * printings_Function1D_00002)
+{0..16200}
+BOUND aux24 #(design_FunctionND_00001_00012 * printings_Function1D_00001)
+{0..16200}
+BOUND aux25 #(design_FunctionND_00002_00012 * printings_Function1D_00002)
+{0..16200}
+BOUND aux26 #(design_FunctionND_00001_00013 * printings_Function1D_00001)
+{0..16200}
+BOUND aux27 #(design_FunctionND_00002_00013 * printings_Function1D_00002)
+{0..16200}
+BOUND aux28 #(design_FunctionND_00001_00014 * printings_Function1D_00001)
+{0..16200}
+BOUND aux29 #(design_FunctionND_00002_00014 * printings_Function1D_00002)
+{0..16200}
+BOUND aux30 #(design_FunctionND_00001_00015 * printings_Function1D_00001)
+{0..16200}
+BOUND aux31 #(design_FunctionND_00002_00015 * printings_Function1D_00002)
+{0..16200}
+BOUND aux32 #(design_FunctionND_00001_00016 * printings_Function1D_00001)
+{0..16200}
+BOUND aux33 #(design_FunctionND_00002_00016 * printings_Function1D_00002)
+{0..16200}
+BOUND aux34 #(design_FunctionND_00001_00017 * printings_Function1D_00001)
+{0..16200}
+BOUND aux35 #(design_FunctionND_00002_00017 * printings_Function1D_00002)
+{0..16200}
+BOUND aux36 #(design_FunctionND_00001_00018 * printings_Function1D_00001)
+{0..16200}
+BOUND aux37 #(design_FunctionND_00002_00018 * printings_Function1D_00002)
+{0..16200}
+BOUND aux38 #(design_FunctionND_00001_00019 * printings_Function1D_00001)
+{0..16200}
+BOUND aux39 #(design_FunctionND_00002_00019 * printings_Function1D_00002)
+{0..16200}
+BOUND aux40 #(design_FunctionND_00001_00020 * printings_Function1D_00001)
+{0..16200}
+BOUND aux41 #(design_FunctionND_00002_00020 * printings_Function1D_00002)
+{0..16200}
+BOUND aux42 #(design_FunctionND_00001_00021 * printings_Function1D_00001)
+{0..16200}
+BOUND aux43 #(design_FunctionND_00002_00021 * printings_Function1D_00002)
+{0..16200}
+BOUND aux44 #(design_FunctionND_00001_00022 * printings_Function1D_00001)
+{0..16200}
+BOUND aux45 #(design_FunctionND_00002_00022 * printings_Function1D_00002)
+{0..16200}
+BOUND aux46 #(design_FunctionND_00001_00023 * printings_Function1D_00001)
+{0..16200}
+BOUND aux47 #(design_FunctionND_00002_00023 * printings_Function1D_00002)
+{0..16200}
+BOUND aux48 #(design_FunctionND_00001_00024 * printings_Function1D_00001)
+{0..16200}
+BOUND aux49 #(design_FunctionND_00002_00024 * printings_Function1D_00002)
+{0..16200}
+BOUND aux50 #(design_FunctionND_00001_00025 * printings_Function1D_00001)
+{0..16200}
+BOUND aux51 #(design_FunctionND_00002_00025 * printings_Function1D_00002)
+{0..16200}
+BOUND aux52 #(design_FunctionND_00001_00026 * printings_Function1D_00001)
+{0..16200}
+BOUND aux53 #(design_FunctionND_00002_00026 * printings_Function1D_00002)
+{0..16200}
+BOUND aux54 #(design_FunctionND_00001_00027 * printings_Function1D_00001)
+{0..16200}
+BOUND aux55 #(design_FunctionND_00002_00027 * printings_Function1D_00002)
+{0..16200}
+BOUND aux56 #(design_FunctionND_00001_00028 * printings_Function1D_00001)
+{0..16200}
+BOUND aux57 #(design_FunctionND_00002_00028 * printings_Function1D_00002)
+{0..16200}
+BOUND aux58 #(design_FunctionND_00001_00029 * printings_Function1D_00001)
+{0..16200}
+BOUND aux59 #(design_FunctionND_00002_00029 * printings_Function1D_00002)
+{0..16200}
+BOUND aux60 #(design_FunctionND_00001_00030 * printings_Function1D_00001)
+{0..16200}
+BOUND aux61 #(design_FunctionND_00002_00030 * printings_Function1D_00002)
+{0..16200}
+BOUND aux62 #(design_FunctionND_00001_00031 * printings_Function1D_00001)
+{0..16200}
+BOUND aux63 #(design_FunctionND_00002_00031 * printings_Function1D_00002)
+{0..16200}
+BOUND aux64 #(design_FunctionND_00001_00032 * printings_Function1D_00001)
+{0..16200}
+BOUND aux65 #(design_FunctionND_00002_00032 * printings_Function1D_00002)
+{0..16200}
+BOUND aux66 #(design_FunctionND_00001_00033 * printings_Function1D_00001)
+{0..16200}
+BOUND aux67 #(design_FunctionND_00002_00033 * printings_Function1D_00002)
+{0..16200}
+BOUND aux68 #(design_FunctionND_00001_00034 * printings_Function1D_00001)
+{0..16200}
+BOUND aux69 #(design_FunctionND_00002_00034 * printings_Function1D_00002)
+{0..16200}
+BOUND aux70 #(design_FunctionND_00001_00035 * printings_Function1D_00001)
+{0..16200}
+BOUND aux71 #(design_FunctionND_00002_00035 * printings_Function1D_00002)
+{0..16200}
+BOUND aux72 #(design_FunctionND_00001_00036 * printings_Function1D_00001)
+{0..16200}
+BOUND aux73 #(design_FunctionND_00002_00036 * printings_Function1D_00002)
+{0..16200}
+BOUND aux74 #(design_FunctionND_00001_00037 * printings_Function1D_00001)
+{0..16200}
+BOUND aux75 #(design_FunctionND_00002_00037 * printings_Function1D_00002)
+{0..16200}
+BOUND aux76 #(design_FunctionND_00001_00038 * printings_Function1D_00001)
+{0..16200}
+BOUND aux77 #(design_FunctionND_00002_00038 * printings_Function1D_00002)
+{0..16200}
+BOUND aux78 #(design_FunctionND_00001_00039 * printings_Function1D_00001)
+{0..16200}
+BOUND aux79 #(design_FunctionND_00002_00039 * printings_Function1D_00002)
+{0..16200}
+BOUND aux80 #(design_FunctionND_00001_00040 * printings_Function1D_00001)
+{0..16200}
+BOUND aux81 #(design_FunctionND_00002_00040 * printings_Function1D_00002)
+{0..16200}
+BOUND aux82 #(design_FunctionND_00001_00041 * printings_Function1D_00001)
+{0..16200}
+BOUND aux83 #(design_FunctionND_00002_00041 * printings_Function1D_00002)
+{0..16200}
+BOUND aux84 #(design_FunctionND_00001_00042 * printings_Function1D_00001)
+{0..16200}
+BOUND aux85 #(design_FunctionND_00002_00042 * printings_Function1D_00002)
+{0..16200}
+BOUND aux86 #(design_FunctionND_00001_00043 * printings_Function1D_00001)
+{0..16200}
+BOUND aux87 #(design_FunctionND_00002_00043 * printings_Function1D_00002)
+{0..16200}
+BOUND aux88 #(design_FunctionND_00001_00044 * printings_Function1D_00001)
+{0..16200}
+BOUND aux89 #(design_FunctionND_00002_00044 * printings_Function1D_00002)
+{0..16200}
+BOUND aux90 #(design_FunctionND_00001_00045 * printings_Function1D_00001)
+{0..16200}
+BOUND aux91 #(design_FunctionND_00002_00045 * printings_Function1D_00002)
+{0..16200}
+BOUND aux92 #(design_FunctionND_00001_00046 * printings_Function1D_00001)
+{0..16200}
+BOUND aux93 #(design_FunctionND_00002_00046 * printings_Function1D_00002)
+{0..16200}
+BOUND aux94 #(design_FunctionND_00001_00047 * printings_Function1D_00001)
+{0..16200}
+BOUND aux95 #(design_FunctionND_00002_00047 * printings_Function1D_00002)
+{0..16200}
+BOUND aux96 #(design_FunctionND_00001_00048 * printings_Function1D_00001)
+{0..16200}
+BOUND aux97 #(design_FunctionND_00002_00048 * printings_Function1D_00002)
+{0..16200}
+BOUND aux98 #(design_FunctionND_00001_00049 * printings_Function1D_00001)
+{0..16200}
+BOUND aux99 #(design_FunctionND_00002_00049 * printings_Function1D_00002)
+{0..16200}
+BOUND aux100 #(design_FunctionND_00001_00050 * printings_Function1D_00001)
+{0..16200}
+BOUND aux101 #(design_FunctionND_00002_00050 * printings_Function1D_00002)
+{0..16200}
+**VARIABLES**
+ALIAS demand_Function1D[50]=[50, 53, 55, 60, 85, 90, 100, 100, 105, 110, 137, 140, 140, 140, 150, 150, 150, 150, 150, 150, 150, 150, 168, 170, 170, 195, 195, 200, 200, 200, 210, 210, 225, 230, 230, 230, 250, 250, 250, 250, 250, 250, 250, 250, 265, 270, 270, 375, 375, 405]
+**SEARCH**
+PRINT[[design_FunctionND_00001_00001],[design_FunctionND_00001_00002],[design_FunctionND_00001_00003],[design_FunctionND_00001_00004],[design_FunctionND_00001_00005],[design_FunctionND_00001_00006],[design_FunctionND_00001_00007],[design_FunctionND_00001_00008],[design_FunctionND_00001_00009],[design_FunctionND_00001_00010],[design_FunctionND_00001_00011],[design_FunctionND_00001_00012],[design_FunctionND_00001_00013],[design_FunctionND_00001_00014],[design_FunctionND_00001_00015],[design_FunctionND_00001_00016],[design_FunctionND_00001_00017],[design_FunctionND_00001_00018],[design_FunctionND_00001_00019],[design_FunctionND_00001_00020],[design_FunctionND_00001_00021],[design_FunctionND_00001_00022],[design_FunctionND_00001_00023],[design_FunctionND_00001_00024],[design_FunctionND_00001_00025],[design_FunctionND_00001_00026],[design_FunctionND_00001_00027],[design_FunctionND_00001_00028],[design_FunctionND_00001_00029],[design_FunctionND_00001_00030],[design_FunctionND_00001_00031],[design_FunctionND_00001_00032],[design_FunctionND_00001_00033],[design_FunctionND_00001_00034],[design_FunctionND_00001_00035],[design_FunctionND_00001_00036],[design_FunctionND_00001_00037],[design_FunctionND_00001_00038],[design_FunctionND_00001_00039],[design_FunctionND_00001_00040],[design_FunctionND_00001_00041],[design_FunctionND_00001_00042],[design_FunctionND_00001_00043],[design_FunctionND_00001_00044],[design_FunctionND_00001_00045],[design_FunctionND_00001_00046],[design_FunctionND_00001_00047],[design_FunctionND_00001_00048],[design_FunctionND_00001_00049],[design_FunctionND_00001_00050],[design_FunctionND_00002_00001],[design_FunctionND_00002_00002],[design_FunctionND_00002_00003],[design_FunctionND_00002_00004],[design_FunctionND_00002_00005],[design_FunctionND_00002_00006],[design_FunctionND_00002_00007],[design_FunctionND_00002_00008],[design_FunctionND_00002_00009],[design_FunctionND_00002_00010],[design_FunctionND_00002_00011],[design_FunctionND_00002_00012],[design_FunctionND_00002_00013],[design_FunctionND_00002_00014],[design_FunctionND_00002_00015],[design_FunctionND_00002_00016],[design_FunctionND_00002_00017],[design_FunctionND_00002_00018],[design_FunctionND_00002_00019],[design_FunctionND_00002_00020],[design_FunctionND_00002_00021],[design_FunctionND_00002_00022],[design_FunctionND_00002_00023],[design_FunctionND_00002_00024],[design_FunctionND_00002_00025],[design_FunctionND_00002_00026],[design_FunctionND_00002_00027],[design_FunctionND_00002_00028],[design_FunctionND_00002_00029],[design_FunctionND_00002_00030],[design_FunctionND_00002_00031],[design_FunctionND_00002_00032],[design_FunctionND_00002_00033],[design_FunctionND_00002_00034],[design_FunctionND_00002_00035],[design_FunctionND_00002_00036],[design_FunctionND_00002_00037],[design_FunctionND_00002_00038],[design_FunctionND_00002_00039],[design_FunctionND_00002_00040],[design_FunctionND_00002_00041],[design_FunctionND_00002_00042],[design_FunctionND_00002_00043],[design_FunctionND_00002_00044],[design_FunctionND_00002_00045],[design_FunctionND_00002_00046],[design_FunctionND_00002_00047],[design_FunctionND_00002_00048],[design_FunctionND_00002_00049],[design_FunctionND_00002_00050],[printings_Function1D_00001],[printings_Function1D_00002][aux1]]
+MINIMISING aux1
+VARORDER STATIC [design_FunctionND_00001_00001, design_FunctionND_00001_00002, design_FunctionND_00001_00003, design_FunctionND_00001_00004, design_FunctionND_00001_00005, design_FunctionND_00001_00006, design_FunctionND_00001_00007, design_FunctionND_00001_00008, design_FunctionND_00001_00009, design_FunctionND_00001_00010, design_FunctionND_00001_00011, design_FunctionND_00001_00012, design_FunctionND_00001_00013, design_FunctionND_00001_00014, design_FunctionND_00001_00015, design_FunctionND_00001_00016, design_FunctionND_00001_00017, design_FunctionND_00001_00018, design_FunctionND_00001_00019, design_FunctionND_00001_00020, design_FunctionND_00001_00021, design_FunctionND_00001_00022, design_FunctionND_00001_00023, design_FunctionND_00001_00024, design_FunctionND_00001_00025, design_FunctionND_00001_00026, design_FunctionND_00001_00027, design_FunctionND_00001_00028, design_FunctionND_00001_00029, design_FunctionND_00001_00030, design_FunctionND_00001_00031, design_FunctionND_00001_00032, design_FunctionND_00001_00033, design_FunctionND_00001_00034, design_FunctionND_00001_00035, design_FunctionND_00001_00036, design_FunctionND_00001_00037, design_FunctionND_00001_00038, design_FunctionND_00001_00039, design_FunctionND_00001_00040, design_FunctionND_00001_00041, design_FunctionND_00001_00042, design_FunctionND_00001_00043, design_FunctionND_00001_00044, design_FunctionND_00001_00045, design_FunctionND_00001_00046, design_FunctionND_00001_00047, design_FunctionND_00001_00048, design_FunctionND_00001_00049, design_FunctionND_00001_00050, design_FunctionND_00002_00001, design_FunctionND_00002_00002, design_FunctionND_00002_00003, design_FunctionND_00002_00004, design_FunctionND_00002_00005, design_FunctionND_00002_00006, design_FunctionND_00002_00007, design_FunctionND_00002_00008, design_FunctionND_00002_00009, design_FunctionND_00002_00010, design_FunctionND_00002_00011, design_FunctionND_00002_00012, design_FunctionND_00002_00013, design_FunctionND_00002_00014, design_FunctionND_00002_00015, design_FunctionND_00002_00016, design_FunctionND_00002_00017, design_FunctionND_00002_00018, design_FunctionND_00002_00019, design_FunctionND_00002_00020, design_FunctionND_00002_00021, design_FunctionND_00002_00022, design_FunctionND_00002_00023, design_FunctionND_00002_00024, design_FunctionND_00002_00025, design_FunctionND_00002_00026, design_FunctionND_00002_00027, design_FunctionND_00002_00028, design_FunctionND_00002_00029, design_FunctionND_00002_00030, design_FunctionND_00002_00031, design_FunctionND_00002_00032, design_FunctionND_00002_00033, design_FunctionND_00002_00034, design_FunctionND_00002_00035, design_FunctionND_00002_00036, design_FunctionND_00002_00037, design_FunctionND_00002_00038, design_FunctionND_00002_00039, design_FunctionND_00002_00040, design_FunctionND_00002_00041, design_FunctionND_00002_00042, design_FunctionND_00002_00043, design_FunctionND_00002_00044, design_FunctionND_00002_00045, design_FunctionND_00002_00046, design_FunctionND_00002_00047, design_FunctionND_00002_00048, design_FunctionND_00002_00049, design_FunctionND_00002_00050, printings_Function1D_00001, printings_Function1D_00002]
+**CONSTRAINTS**
+productgeq(design_FunctionND_00001_00001, printings_Function1D_00001, aux2)
+productgeq(design_FunctionND_00002_00001, printings_Function1D_00002, aux3)
+productgeq(design_FunctionND_00001_00002, printings_Function1D_00001, aux4)
+productgeq(design_FunctionND_00002_00002, printings_Function1D_00002, aux5)
+productgeq(design_FunctionND_00001_00003, printings_Function1D_00001, aux6)
+productgeq(design_FunctionND_00002_00003, printings_Function1D_00002, aux7)
+productgeq(design_FunctionND_00001_00004, printings_Function1D_00001, aux8)
+productgeq(design_FunctionND_00002_00004, printings_Function1D_00002, aux9)
+productgeq(design_FunctionND_00001_00005, printings_Function1D_00001, aux10)
+productgeq(design_FunctionND_00002_00005, printings_Function1D_00002, aux11)
+productgeq(design_FunctionND_00001_00006, printings_Function1D_00001, aux12)
+productgeq(design_FunctionND_00002_00006, printings_Function1D_00002, aux13)
+productgeq(design_FunctionND_00001_00007, printings_Function1D_00001, aux14)
+productgeq(design_FunctionND_00002_00007, printings_Function1D_00002, aux15)
+productgeq(design_FunctionND_00001_00008, printings_Function1D_00001, aux16)
+productgeq(design_FunctionND_00002_00008, printings_Function1D_00002, aux17)
+productgeq(design_FunctionND_00001_00009, printings_Function1D_00001, aux18)
+productgeq(design_FunctionND_00002_00009, printings_Function1D_00002, aux19)
+productgeq(design_FunctionND_00001_00010, printings_Function1D_00001, aux20)
+productgeq(design_FunctionND_00002_00010, printings_Function1D_00002, aux21)
+productgeq(design_FunctionND_00001_00011, printings_Function1D_00001, aux22)
+productgeq(design_FunctionND_00002_00011, printings_Function1D_00002, aux23)
+productgeq(design_FunctionND_00001_00012, printings_Function1D_00001, aux24)
+productgeq(design_FunctionND_00002_00012, printings_Function1D_00002, aux25)
+productgeq(design_FunctionND_00001_00013, printings_Function1D_00001, aux26)
+productgeq(design_FunctionND_00002_00013, printings_Function1D_00002, aux27)
+productgeq(design_FunctionND_00001_00014, printings_Function1D_00001, aux28)
+productgeq(design_FunctionND_00002_00014, printings_Function1D_00002, aux29)
+productgeq(design_FunctionND_00001_00015, printings_Function1D_00001, aux30)
+productgeq(design_FunctionND_00002_00015, printings_Function1D_00002, aux31)
+productgeq(design_FunctionND_00001_00016, printings_Function1D_00001, aux32)
+productgeq(design_FunctionND_00002_00016, printings_Function1D_00002, aux33)
+productgeq(design_FunctionND_00001_00017, printings_Function1D_00001, aux34)
+productgeq(design_FunctionND_00002_00017, printings_Function1D_00002, aux35)
+productgeq(design_FunctionND_00001_00018, printings_Function1D_00001, aux36)
+productgeq(design_FunctionND_00002_00018, printings_Function1D_00002, aux37)
+productgeq(design_FunctionND_00001_00019, printings_Function1D_00001, aux38)
+productgeq(design_FunctionND_00002_00019, printings_Function1D_00002, aux39)
+productgeq(design_FunctionND_00001_00020, printings_Function1D_00001, aux40)
+productgeq(design_FunctionND_00002_00020, printings_Function1D_00002, aux41)
+productgeq(design_FunctionND_00001_00021, printings_Function1D_00001, aux42)
+productgeq(design_FunctionND_00002_00021, printings_Function1D_00002, aux43)
+productgeq(design_FunctionND_00001_00022, printings_Function1D_00001, aux44)
+productgeq(design_FunctionND_00002_00022, printings_Function1D_00002, aux45)
+productgeq(design_FunctionND_00001_00023, printings_Function1D_00001, aux46)
+productgeq(design_FunctionND_00002_00023, printings_Function1D_00002, aux47)
+productgeq(design_FunctionND_00001_00024, printings_Function1D_00001, aux48)
+productgeq(design_FunctionND_00002_00024, printings_Function1D_00002, aux49)
+productgeq(design_FunctionND_00001_00025, printings_Function1D_00001, aux50)
+productgeq(design_FunctionND_00002_00025, printings_Function1D_00002, aux51)
+productgeq(design_FunctionND_00001_00026, printings_Function1D_00001, aux52)
+productgeq(design_FunctionND_00002_00026, printings_Function1D_00002, aux53)
+productgeq(design_FunctionND_00001_00027, printings_Function1D_00001, aux54)
+productgeq(design_FunctionND_00002_00027, printings_Function1D_00002, aux55)
+productgeq(design_FunctionND_00001_00028, printings_Function1D_00001, aux56)
+productgeq(design_FunctionND_00002_00028, printings_Function1D_00002, aux57)
+productgeq(design_FunctionND_00001_00029, printings_Function1D_00001, aux58)
+productgeq(design_FunctionND_00002_00029, printings_Function1D_00002, aux59)
+productgeq(design_FunctionND_00001_00030, printings_Function1D_00001, aux60)
+productgeq(design_FunctionND_00002_00030, printings_Function1D_00002, aux61)
+productgeq(design_FunctionND_00001_00031, printings_Function1D_00001, aux62)
+productgeq(design_FunctionND_00002_00031, printings_Function1D_00002, aux63)
+productgeq(design_FunctionND_00001_00032, printings_Function1D_00001, aux64)
+productgeq(design_FunctionND_00002_00032, printings_Function1D_00002, aux65)
+productgeq(design_FunctionND_00001_00033, printings_Function1D_00001, aux66)
+productgeq(design_FunctionND_00002_00033, printings_Function1D_00002, aux67)
+productgeq(design_FunctionND_00001_00034, printings_Function1D_00001, aux68)
+productgeq(design_FunctionND_00002_00034, printings_Function1D_00002, aux69)
+productgeq(design_FunctionND_00001_00035, printings_Function1D_00001, aux70)
+productgeq(design_FunctionND_00002_00035, printings_Function1D_00002, aux71)
+productgeq(design_FunctionND_00001_00036, printings_Function1D_00001, aux72)
+productgeq(design_FunctionND_00002_00036, printings_Function1D_00002, aux73)
+productgeq(design_FunctionND_00001_00037, printings_Function1D_00001, aux74)
+productgeq(design_FunctionND_00002_00037, printings_Function1D_00002, aux75)
+productgeq(design_FunctionND_00001_00038, printings_Function1D_00001, aux76)
+productgeq(design_FunctionND_00002_00038, printings_Function1D_00002, aux77)
+productgeq(design_FunctionND_00001_00039, printings_Function1D_00001, aux78)
+productgeq(design_FunctionND_00002_00039, printings_Function1D_00002, aux79)
+productgeq(design_FunctionND_00001_00040, printings_Function1D_00001, aux80)
+productgeq(design_FunctionND_00002_00040, printings_Function1D_00002, aux81)
+productgeq(design_FunctionND_00001_00041, printings_Function1D_00001, aux82)
+productgeq(design_FunctionND_00002_00041, printings_Function1D_00002, aux83)
+productgeq(design_FunctionND_00001_00042, printings_Function1D_00001, aux84)
+productgeq(design_FunctionND_00002_00042, printings_Function1D_00002, aux85)
+productgeq(design_FunctionND_00001_00043, printings_Function1D_00001, aux86)
+productgeq(design_FunctionND_00002_00043, printings_Function1D_00002, aux87)
+productgeq(design_FunctionND_00001_00044, printings_Function1D_00001, aux88)
+productgeq(design_FunctionND_00002_00044, printings_Function1D_00002, aux89)
+productgeq(design_FunctionND_00001_00045, printings_Function1D_00001, aux90)
+productgeq(design_FunctionND_00002_00045, printings_Function1D_00002, aux91)
+productgeq(design_FunctionND_00001_00046, printings_Function1D_00001, aux92)
+productgeq(design_FunctionND_00002_00046, printings_Function1D_00002, aux93)
+productgeq(design_FunctionND_00001_00047, printings_Function1D_00001, aux94)
+productgeq(design_FunctionND_00002_00047, printings_Function1D_00002, aux95)
+productgeq(design_FunctionND_00001_00048, printings_Function1D_00001, aux96)
+productgeq(design_FunctionND_00002_00048, printings_Function1D_00002, aux97)
+productgeq(design_FunctionND_00001_00049, printings_Function1D_00001, aux98)
+productgeq(design_FunctionND_00002_00049, printings_Function1D_00002, aux99)
+productgeq(design_FunctionND_00001_00050, printings_Function1D_00001, aux100)
+productgeq(design_FunctionND_00002_00050, printings_Function1D_00002, aux101)
+sumgeq([aux2,aux3],50)
+sumgeq([aux4,aux5],53)
+sumgeq([aux6,aux7],55)
+sumgeq([aux8,aux9],60)
+sumgeq([aux10,aux11],85)
+sumgeq([aux12,aux13],90)
+sumgeq([aux14,aux15],100)
+sumgeq([aux16,aux17],100)
+sumgeq([aux18,aux19],105)
+sumgeq([aux20,aux21],110)
+sumgeq([aux22,aux23],137)
+sumgeq([aux24,aux25],140)
+sumgeq([aux26,aux27],140)
+sumgeq([aux28,aux29],140)
+sumgeq([aux30,aux31],150)
+sumgeq([aux32,aux33],150)
+sumgeq([aux34,aux35],150)
+sumgeq([aux36,aux37],150)
+sumgeq([aux38,aux39],150)
+sumgeq([aux40,aux41],150)
+sumgeq([aux42,aux43],150)
+sumgeq([aux44,aux45],150)
+sumgeq([aux46,aux47],168)
+sumgeq([aux48,aux49],170)
+sumgeq([aux50,aux51],170)
+sumgeq([aux52,aux53],195)
+sumgeq([aux54,aux55],195)
+sumgeq([aux56,aux57],200)
+sumgeq([aux58,aux59],200)
+sumgeq([aux60,aux61],200)
+sumgeq([aux62,aux63],210)
+sumgeq([aux64,aux65],210)
+sumgeq([aux66,aux67],225)
+sumgeq([aux68,aux69],230)
+sumgeq([aux70,aux71],230)
+sumgeq([aux72,aux73],230)
+sumgeq([aux74,aux75],250)
+sumgeq([aux76,aux77],250)
+sumgeq([aux78,aux79],250)
+sumgeq([aux80,aux81],250)
+sumgeq([aux82,aux83],250)
+sumgeq([aux84,aux85],250)
+sumgeq([aux86,aux87],250)
+sumgeq([aux88,aux89],250)
+sumgeq([aux90,aux91],265)
+sumgeq([aux92,aux93],270)
+sumgeq([aux94,aux95],270)
+sumgeq([aux96,aux97],375)
+sumgeq([aux98,aux99],375)
+sumgeq([aux100,aux101],405)
+sumleq([printings_Function1D_00001,printings_Function1D_00002],aux1)
+sumgeq([printings_Function1D_00001,printings_Function1D_00002],aux1)
+**EOF**

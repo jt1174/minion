@@ -349,7 +349,7 @@
  /home/lotwf/minion/minion/constraints/nonlinear_arithmetic/helper_funcs.h \
  /home/lotwf/minion/minion/constraints/nonlinear_arithmetic/../constraint_and.h \
  /home/lotwf/minion/minion/constraints/nonlinear_arithmetic/../constraint_checkassign.h \
- /home/lotwf/minion/minion/constraints/nonlinear_arithmetic/constraint_product_bool.h
+ /home/lotwf/minion/minion/constraints/nonlinear_arithmetic/constraint_product_bool_leq.h
 
 /usr/include/stdc-predef.h:
 
@@ -1185,4 +1185,4 @@
 
 /home/lotwf/minion/minion/constraints/nonlinear_arithmetic/../constraint_checkassign.h:
 
-/home/lotwf/minion/minion/constraints/nonlinear_arithmetic/constraint_product_bool.h:
+/home/lotwf/minion/minion/constraints/nonlinear_arithmetic/constraint_product_bool_leq.h:

@@ -1,0 +1,9 @@
+#"CommandLineArguments" "Filename" "InitialPropagate" "MinionVersion" "Nodes" "ParsingTime" "Preprocess" "PreprocessTime" "RandomSeed" "Satisfiable" "SearchOrderTime" "SetupTime" "SolutionsFound" "SolveTime" "TimeOut" "TotalTime" 
+./testcases/templates/cf2.minion,-findallsols,-noprintsols,-tableout,x.xls ./testcases/templates/cf2.minion 0 -1 141 0 none 0 1553264287 1 0 0 23 0 0 0 
+./testcases/templates/cf2geq.minion,-findallsols,-noprintsols,-tableout,x.xls ./testcases/templates/cf2geq.minion 9.5e-05 -1 283 0 none 1.5e-05 1553264248 1 4.5e-05 0.000194 23 0.000436 0 0.000782 
+./testcases/templates/cf3geq.minion,-findallsols,-noprintsols,-tableout,x.xls ./testcases/templates/cf3geq.minion 0.000117 -1 108119749 0.000757 none 6e-06 1553264193 1 4.3e-05 0.000243 23 595.647 0 595.648 
+./testcases/templates/cf3geq.minion,-findallsols,-noprintsols,-tableout,x.xls,-nodelimit,100000 ./testcases/templates/cf3geq.minion 5e-05 -1 100000 0.000489 none 5e-06 1553273902 1 1.7e-05 0.000119 23 0.391706 0 0.392385 
+./testcases/templates/cf3.minion,-findallsols,-noprintsols,-tableout,x.xls,-nodelimit,100000 ./testcases/templates/cf3.minion 0 -1 100000 0 none 0 1553273912 1 0 0 23 1.96283 0 1.96283 
+./testcases/templates/cf3.minion,-findallsols,-noprintsols,-tableout,x.xls,-nodelimit,1000000 ./testcases/templates/cf3.minion 0 -1 1000000 0 none 0 1553273974 1 0 0 23 22.9041 0 22.9041 
+./testcases/templates/cf3geq.minion,-findallsols,-noprintsols,-tableout,x.xls,-nodelimit,1000000 ./testcases/templates/cf3geq.minion 0 -1 1000000 0.000732 none 0 1553273876 1 0 0.000237 23 4.39088 0 4.39184 
+./testcases/templates/cf3bound.minion,-findallsols,-noprintsols,-tableout,x.xls,-nodelimit,1000000 ./testcases/templates/cf3bound.minion 0 -1 1000000 0 none 0 1553274274 1 0 0 23 12.9576 0 12.9576 

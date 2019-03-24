@@ -75,16 +75,22 @@ struct ProductLeqConstraint : public AbstractConstraint {
 
   virtual SysInt dynamic_trigger_count() {
     printf("%d  %d",var1.getInitialMin(),var1.getInitialMin());
+    if (mymin(var1.getInitialMin(),var2.getInitialMin())>=0){
+    return 3;
+      }
+    else{
     return 5;
+      }
     }
 
   void setup_triggers() {
-    printf("%d  %d",var1.getInitialMin(),var1.getInitialMin());
     moveTriggerInt(var1, 0, LowerBound);
     moveTriggerInt(var2, 1, LowerBound);
-    moveTriggerInt(var3, 2, LowerBound);//if initialmin of factors positive, these 3, 
-    //moveTriggerInt(var1, 3, UpperBound);
-    //moveTriggerInt(var2, 4, UpperBound);
+    moveTriggerInt(var3, 2, UpperBound);//if initialmin of factors positive, these 3, 
+    if (mymin(var1.getInitialMin(),var2.getInitialMin())<0){
+    moveTriggerInt(var1, 3, UpperBound);
+    moveTriggerInt(var2, 4, UpperBound);
+    }
   }
 
   DomainInt mult_max(DomainInt min1, DomainInt max1, DomainInt min2, DomainInt max2) {
@@ -97,6 +103,7 @@ struct ProductLeqConstraint : public AbstractConstraint {
 
   virtual void propagateDynInt(SysInt, DomainDelta) {
     PROP_INFO_ADDONE(Productleq);
+    //printf("################TTTTTTTTTTTTTT");
     DomainInt var1_min = var1.getMin();
     DomainInt var1_max = var1.getMax();
     DomainInt var2_min = var2.getMin();
@@ -109,20 +116,16 @@ struct ProductLeqConstraint : public AbstractConstraint {
 
       var3_min = max(var3_min, var1_min * var2_min);
       
-      var1_min = max(var1_min, round_up_div(var3_min, var2_max));
       var1_max = min(var1_max, round_down_div(var3_max, var2_min));
 
-      var2_min = max(var2_min, round_up_div(var3_min, var1_max));
       var2_max = min(var2_max, round_down_div(var3_max, var1_min));
 
-      var1.setMin(var1_min);//lowez>lowerx*
       var1.setMax(var1_max);
-      var2.setMin(var2_min);
       var2.setMax(var2_max);
       var3.setMin(var3_min);
       //var3.setMax(var3_max);
     } else {
-      var3.setMax(mult_max(var1_min, var1_max, var2_min, var2_max));
+      //var3.setMax(mult_max(var1_min, var1_max, var2_min, var2_max));
       var3.setMin(mult_min(var1_min, var1_max, var2_min, var2_max));
       if(var1.isAssigned()) {
         DomainInt val1 = var1.getAssignedValue();
@@ -222,7 +225,7 @@ struct ProductLeqConstraint : public AbstractConstraint {
 };
 
 #include "../constraint_and.h"
-#include "constraint_product_bool.h"
+#include "constraint_product_bool_leq.h"
 //
 inline AbstractConstraint* BuildCT_PRODUCT2LEQ(const vector<BoolVarRef>& vars,
                                             const vector<BoolVarRef>& var2, ConstraintBlob&) {
@@ -240,11 +243,11 @@ AbstractConstraint* BuildCT_PRODUCT2LEQ(const vector<VarRef1>& vars, const vecto
   D_ASSERT(var2.size() == 1);
   bool isBound = (vars[0].isBound() || vars[1].isBound() || var2[0].isBound());
   if(!isBound && vars[0].getInitialMin() >= 0 && vars[0].getInitialMax() <= 1) {
-    return new BoolProdConstraint<VarRef1, VarRef1, VarRef2>(vars[0], vars[1], var2[0]);
+    return new BoolProdLeqConstraint<VarRef1, VarRef1, VarRef2>(vars[0], vars[1], var2[0]);
   }
   
   if(!isBound && vars[1].getInitialMin() >= 0 && vars[1].getInitialMax() <= 1) {
-    return new BoolProdConstraint<VarRef1, VarRef1, VarRef2>(vars[1], vars[0], var2[0]);
+    return new BoolProdLeqConstraint<VarRef1, VarRef1, VarRef2>(vars[1], vars[0], var2[0]);
   }
 
   return new ProductLeqConstraint<VarRef1, VarRef1, VarRef2>(vars[0], vars[1], var2[0]);
