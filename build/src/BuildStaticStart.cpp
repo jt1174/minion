@@ -68,6 +68,8 @@ AbstractConstraint* build_constraint_CT_MODULO(ConstraintBlob&);
 AbstractConstraint* build_constraint_CT_MODULO_UNDEFZERO(ConstraintBlob&);
 AbstractConstraint* build_constraint_CT_PRODUCT2(ConstraintBlob&);
 AbstractConstraint* build_constraint_CT_PRODUCT2LEQ(ConstraintBlob&);
+AbstractConstraint* build_constraint_CT_DIVLEQ(ConstraintBlob&);
+AbstractConstraint* build_constraint_CT_DIV_UNDEFZEROLEQ(ConstraintBlob&);
 AbstractConstraint* build_constraint_CT_PRODUCT2GEQ(ConstraintBlob&);
 AbstractConstraint* build_constraint_CT_DIV(ConstraintBlob&);
 AbstractConstraint* build_constraint_CT_DIV_UNDEFZERO(ConstraintBlob&);
@@ -223,6 +225,10 @@ AbstractConstraint* build_constraint(ConstraintBlob& b) {
     return build_constraint_CT_PRODUCT2(b);
   case CT_PRODUCT2LEQ:
     return build_constraint_CT_PRODUCT2LEQ(b);
+  case CT_DIVLEQ:
+    return build_constraint_CT_DIVLEQ(b);
+  case CT_DIV_UNDEFZEROLEQ:
+    return build_constraint_CT_DIV_UNDEFZEROLEQ(b);
   case CT_PRODUCT2GEQ:
     return build_constraint_CT_PRODUCT2GEQ(b);
   case CT_DIV:

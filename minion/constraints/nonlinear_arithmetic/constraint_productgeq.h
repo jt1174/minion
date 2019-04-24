@@ -152,7 +152,7 @@ struct productgeqConstraint : public AbstractConstraint {
   virtual BOOL check_assignment(DomainInt* v, SysInt v_size) {
     D_ASSERT(v_size == 3);
     printf("\n\n\n*********************%d %d %d\n\n\n",v[0],v[1],v[2]);
-    return (v[0] * v[1]) == v[2];
+    return (v[0] * v[1]) >= v[2];
   }
 
   virtual vector<AnyVarRef> get_vars() {
@@ -180,38 +180,7 @@ struct productgeqConstraint : public AbstractConstraint {
     return false;
   }
 
- /*   DomainInt v1 = var1.getMax();
-    DomainInt v2 = var2.getMax();
-    DomainInt v3 = var3.getMin();
-    if(v3 == v2 * v1) {
-      assignment.push_back(make_pair(0, v1));
-      assignment.push_back(make_pair(1, v2));
-      assignment.push_back(make_pair(2, v3));
-      return true;
-    }
-    return false;
-  }*/
-/*    printf("\n\n****************\n\n");
-    for(DomainInt v1 = var1.getMin(); v1 <= var1.getMax(); ++v1) {
-      if(var1.inDomain(v1)) {
-        for(DomainInt v2 = var2.getMin(); v2 <= var2.getMax(); ++v2) {
-          if(var2.inDomain(v2)) {
-            for(DomainInt v3 = var3.getMin(); v3 <= var3.getMax(); ++v3) {
-              if(var3.inDomain(v3) && v3<=(v2*v1)) {
-                printf("%d %d %d \n",v1,v2,v3);
-                assignment.push_back(make_pair(0, v1));
-                assignment.push_back(make_pair(1, v2));
-                assignment.push_back(make_pair(2, v3));
-                return true;
-              }
-            }
-          }
-        }
-      }
-    }
-    return false;
-  }*/
-
+ 
   // Function to make it reifiable in the lousiest way.
   virtual AbstractConstraint* reverse_constraint() {
     return forward_check_negation(this);

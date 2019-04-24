@@ -15,7 +15,8 @@ def multithreading(func, args,
                    workers):
     with concurrent.futures.ThreadPoolExecutor(workers) as ex:
         res = ex.map(func, args)
-    return list(res)
+    res=list(res)
+    return res
 
 
 def multiprocessing(func, args,
@@ -121,7 +122,7 @@ if __name__ == '__main__':
         benchmark = []
         try:
             subdirs = [x[0] for x in os.walk('./testcases/')]
-#            subdirs = subdirs[0:]
+            #subdirs = subdirs[0:]
             for i in subdirs:
                 test_name_add(i)
         except:
@@ -131,6 +132,7 @@ if __name__ == '__main__':
                 clear_results(test_names)
         else:
             benchmark = ['x'] * len(test_names)
-            benchmark = multiprocessing(parproc, range(len(test_names)), min(len(test_names), 8))
+            benchmark = multiprocessing(parproc, range(len(test_names)), min(len(test_names), 4))
             bm = get_benchmark()
+     
     print('done')

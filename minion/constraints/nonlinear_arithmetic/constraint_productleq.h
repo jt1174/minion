@@ -103,7 +103,7 @@ struct ProductLeqConstraint : public AbstractConstraint {
 
   virtual void propagateDynInt(SysInt, DomainDelta) {
     PROP_INFO_ADDONE(Productleq);
-    //printf("################TTTTTTTTTTTTTT");
+    //printf("propagator called");
     DomainInt var1_min = var1.getMin();
     DomainInt var1_max = var1.getMax();
     DomainInt var2_min = var2.getMin();
@@ -112,7 +112,7 @@ struct ProductLeqConstraint : public AbstractConstraint {
     DomainInt var3_max = var3.getMax();
     //printf("\n%d %d %d %d %d %d\n",var1_max,var1_min,var2_max,var2_min,var3_max,var3_min);
     if((var1_min >= 0) && (var2_min >= 0)) {
-      // We don't have to deal with negative numbers. yay!
+      // All positive
 
       var3_min = max(var3_min, var1_min * var2_min);
       
@@ -123,18 +123,14 @@ struct ProductLeqConstraint : public AbstractConstraint {
       var1.setMax(var1_max);
       var2.setMax(var2_max);
       var3.setMin(var3_min);
-      //var3.setMax(var3_max);
     } else {
-      //var3.setMax(mult_max(var1_min, var1_max, var2_min, var2_max));
       var3.setMin(mult_min(var1_min, var1_max, var2_min, var2_max));
       if(var1.isAssigned()) {
         DomainInt val1 = var1.getAssignedValue();
         if(val1 > 0) {
           var3.setMin(var2.getMin() * val1);
-          //var3.setMax(var2.getMax() * val1);
         } else {
           var3.setMin(var2.getMax() * val1);
-          //var3.setMax(var2.getMin() * val1);
         }
       }
 
@@ -142,10 +138,8 @@ struct ProductLeqConstraint : public AbstractConstraint {
         DomainInt val2 = var2.getAssignedValue();
         if(val2 > 0) {
           var3.setMin(var1.getMin() * val2);
-          //var3.setMax(var1.getMax() * val2);
         } else {
           var3.setMin(var1.getMax() * val2);
-          //var3.setMax(var1.getMin() * val2);
         }
       }
     }
@@ -158,7 +152,7 @@ struct ProductLeqConstraint : public AbstractConstraint {
   virtual BOOL check_assignment(DomainInt* v, SysInt v_size) {
     D_ASSERT(v_size == 3);
     printf("\n\n\n*********************%d %d %d\n\n\n",v[0],v[1],v[2]);
-    return (v[0] * v[1]) == v[2];
+    return (v[0] * v[1]) <= v[2];
   }
 
   virtual vector<AnyVarRef> get_vars() {
@@ -186,37 +180,6 @@ struct ProductLeqConstraint : public AbstractConstraint {
     return false;
   }
 
- /*   DomainInt v1 = var1.getMax();
-    DomainInt v2 = var2.getMax();
-    DomainInt v3 = var3.getMin();
-    if(v3 == v2 * v1) {
-      assignment.push_back(make_pair(0, v1));
-      assignment.push_back(make_pair(1, v2));
-      assignment.push_back(make_pair(2, v3));
-      return true;
-    }
-    return false;
-  }*/
-/*    printf("\n\n****************\n\n");
-    for(DomainInt v1 = var1.getMin(); v1 <= var1.getMax(); ++v1) {
-      if(var1.inDomain(v1)) {
-        for(DomainInt v2 = var2.getMin(); v2 <= var2.getMax(); ++v2) {
-          if(var2.inDomain(v2)) {
-            for(DomainInt v3 = var3.getMin(); v3 <= var3.getMax(); ++v3) {
-              if(var3.inDomain(v3) && v3<=(v2*v1)) {
-                printf("%d %d %d \n",v1,v2,v3);
-                assignment.push_back(make_pair(0, v1));
-                assignment.push_back(make_pair(1, v2));
-                assignment.push_back(make_pair(2, v3));
-                return true;
-              }
-            }
-          }
-        }
-      }
-    }
-    return false;
-  }*/
 
   // Function to make it reifiable in the lousiest way.
   virtual AbstractConstraint* reverse_constraint() {
