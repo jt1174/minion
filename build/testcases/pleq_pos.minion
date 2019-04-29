@@ -13,17 +13,15 @@
 # Command line: minion -redump test_product_3.minion 
 MINION 3
 **VARIABLES**
-BOUND x0{0..5}
-BOUND x1{0..5}
-BOUND x2{8..12}
-BOUND x3{8..10}
+BOOL x0
+BOUND x1{0..1}
+BOUND x2{0..1}
 **SEARCH**
-VARORDER [x0,x1]
-VALORDER [a,a]
-SYMORDER [x0,x1]
-PRINT[[x0,x1,x2,x3]]
+VARORDER [x0,x1,x2]
+VALORDER [a,a,a]
+SYMORDER [x0,x1,x2]
+PRINT[[x0,x1,x2]]
 **TUPLELIST**
 **CONSTRAINTS**
-product(x0,x1,x2)
-sumleq([x2],x3)
+productgeq(x0,x1,x2)
 **EOF**

@@ -27,7 +27,7 @@ def multiprocessing(func, args,
 
 
 def runminion(n):
-    subprocess.check_call(['./minion', test_names[n] + '.minion', '-noprintsols', '-findallsols', '-tableout', test_names[n] + ".xls", '-nodelimit', '1000000'])
+    subprocess.check_call(['./minion', test_names[n] + '.minion', '-noprintsols', '-findallsols', '-tableout', test_names[n] + ".xls", '-nodelimit', '10000000'])
     return 1
 
 

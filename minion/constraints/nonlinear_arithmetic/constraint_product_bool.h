@@ -57,6 +57,7 @@ struct BoolProdConstraint : public AbstractConstraint {
 
 
   void full_check() {
+    printf("##############");
     if(!var3.inDomain(0)) {
       var1.removeFromDomain(0);
       var2.removeFromDomain(0);

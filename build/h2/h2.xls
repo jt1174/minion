@@ -1,0 +1,12 @@
+#"CommandLineArguments" "Filename" "InitialPropagate" "MinionVersion" "Nodes" "ParsingTime" "Preprocess" "PreprocessTime" "RandomSeed" "Satisfiable" "SearchOrderTime" "SetupTime" "SolutionsFound" "SolveTime" "TimeOut" "TotalTime" 
+#"CommandLineArguments" "Filename" "InitialPropagate" "MinionVersion" "Nodes" "ParsingTime" "Preprocess" "PreprocessTime" "RandomSeed" "Satisfiable" "SearchOrderTime" "SetupTime" "SolutionsFound" "SolveTime" "TimeOut" "TotalTime" 
+./testcases/h2/h2.minion,-noprintsols,-findallsols,-tableout,./testcases/h2/h2.xls,-nodelimit,1000000 ./testcases/h2/h2.minion 0 -1 1465 0 none 0 1556296509 1 0 0 50 0.001966 0 0.001965 
+./testcases/h2/h2.minion,-noprintsols,-findallsols,-tableout,./testcases/h2/h2.xls,-nodelimit,1000000 ./testcases/h2/h2.minion 7.9e-05 -1 1465 0.000679 none 8e-06 1556296456 1 4.8e-05 0.000157 50 0.001936 0 0.002904 
+./testcases/h2/h2.minion,-noprintsols,-findallsols,-tableout,./testcases/h2/h2.xls,-nodelimit,1000000 ./testcases/h2/h2.minion 8e-05 -1 1465 0.00074 none 8e-06 1556296510 1 5.1e-05 0.000162 50 0.001878 0 0.002917 
+./testcases/h2/h2.minion,-noprintsols,-findallsols,-tableout,./testcases/h2/h2.xls,-nodelimit,1000000 ./testcases/h2/h2.minion 8.4e-05 -1 1465 0.000738 none 7e-06 1556296472 1 5.1e-05 0.000165 50 0.002022 0 0.003065 
+./testcases/h2/h2.minion,-noprintsols,-findallsols,-tableout,./testcases/h2/h2.xls,-nodelimit,1000000 ./testcases/h2/h2.minion 0 -1 1465 0 none 0 1556296475 1 0 0 50 0.002072 0 0.00207 
+./testcases/h2/h2.minion,-noprintsols,-findallsols,-tableout,./testcases/h2/h2.xls,-nodelimit,1000000 ./testcases/h2/h2.minion 8.5e-05 -1 1465 0.000711 none 8e-06 1556296478 1 4.8e-05 0.000164 50 0.001857 0 0.002872 
+./testcases/h2/h2.minion,-noprintsols,-findallsols,-tableout,./testcases/h2/h2.xls,-nodelimit,1000000 ./testcases/h2/h2.minion 8.2e-05 -1 1465 0.000663 none 8e-06 1556296476 1 4.9e-05 0.000159 50 0.001874 0 0.002833 
+./testcases/h2/h2.minion,-noprintsols,-findallsols,-tableout,./testcases/h2/h2.xls,-nodelimit,1000000 ./testcases/h2/h2.minion 8.8e-05 -1 1465 0.000665 none 8e-06 1556296550 1 5e-05 0.000165 50 0.001896 0 0.00287 
+./testcases/h2/h2.minion,-noprintsols,-findallsols,-tableout,./testcases/h2/h2.xls,-nodelimit,1000000 ./testcases/h2/h2.minion 8.3e-05 -1 1465 0.000667 none 8e-06 1556296555 1 4.9e-05 0.000151 50 0.001909 0 0.002865 
+./testcases/h2/h2.minion,-noprintsols,-findallsols,-tableout,./testcases/h2/h2.xls,-nodelimit,1000000 ./testcases/h2/h2.minion 8.5e-05 -1 1465 0.000748 none 8e-06 1556296554 1 5e-05 0.000159 50 0.001884 0 0.002933 

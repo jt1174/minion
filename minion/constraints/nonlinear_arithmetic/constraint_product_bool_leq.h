@@ -115,8 +115,6 @@ struct BoolProdLeqConstraint : public AbstractConstraint {
   virtual void propagateDynInt(SysInt pos, DomainDelta) {
     printf("\n\n\ntst\n\n\n\n");
     if(pos < dvar3) {
-      DomainInt v1_min=var1.getMin();
-      DomainInt v1_max=var1.getMax();     
       DomainInt v2_min=var2.getMin();
       DomainInt v2_max=var2.getMax();
       DomainInt v3_min=var3.getMin();
@@ -137,7 +135,6 @@ struct BoolProdLeqConstraint : public AbstractConstraint {
 	   var3.setMin(v3_min);
         }
       else{
-           var1.setMin(round_down_div(v3_max, v2_min));
            var3.setMin(v3_min);
            var2.setMax(v2_max);
          }
